@@ -1,0 +1,37 @@
+short_primitives:
+  delta_x:
+    mprim_sequence:
+      - [0, 0, 0, 0, 0, 0]
+      - [0.02, 0, 0, 0, 0, 0]
+    mprim_sequence_transition_costs: [1000, 0]
+    generate_negative: true
+  delta_y:
+    mprim_sequence:
+      - [0, 0, 0, 0, 0, 0]
+      - [0, 0.02, 0, 0, 0, 0]
+    mprim_sequence_transition_costs: [1000, 0]
+    generate_negative: true
+  delta_z:
+    mprim_sequence:
+      - [0, 0, 0, 0, 0, 0]
+      - [0, 0, 0.02, 0, 0, 0]
+    mprim_sequence_transition_costs: [1000, 0]
+    generate_negative: true
+  delta_roll:
+    mprim_sequence:
+      - [0, 0, 0, 0, 0, 0]
+      - [0, 0, 0, 2, 0, 0]
+    mprim_sequence_transition_costs: [1000, 0]
+    generate_negative: true
+  delta_pitch:
+    mprim_sequence:
+      - [0, 0, 0, 0, 0, 0]
+      - [0, 0, 0, 0, 2, 0]
+    mprim_sequence_transition_costs: [1000, 0]
+    generate_negative: true
+  delta_yaw:
+    mprim_sequence:
+      - [0, 0, 0, 0, 0, 0]
+      - [0, 0, 0, 0, 0, 2]
+    mprim_sequence_transition_costs: [1000, 0]
+    generate_negative: true
