@@ -1,0 +1,10 @@
+<launch>
+    <!-- Load parameters first -->
+    <rosparam command="load" file="$(find ctmp_single)/config/objects.yaml"/>
+
+    <!-- Basic Launch File -->
+    <include file="$(find hc10dtp_multiple_arms_moveit_config)/launch/demo.launch"/>
+
+    <!-- Add objects -->
+    <node name="create_scene" pkg="scene_builder_pkg" type="add_objects" output="screen"/>
+</launch>
