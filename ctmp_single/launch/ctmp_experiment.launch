@@ -1,0 +1,5 @@
+<launch>
+    
+    <node name="run_serial_tasks" pkg="ctmp_single" type="ctmp_experiment.sh" output="screen"/>
+
+</launch>

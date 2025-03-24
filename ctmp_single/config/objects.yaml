@@ -1,0 +1,136 @@
+objects:
+  - id: table
+    type: box
+    frame_id: world
+    dimensions: [1.2, 0.59, 0.94]  
+    pose:
+      position: [0.95, 0.01, 0.47]  
+      orientation: [0.0, 0.0, 0.0, 1.0] 
+
+  - id: base
+    type: mesh
+    frame_id: world
+    mesh_resource: "package://scene_builder_pkg/meshes/LEU_Base.STL"
+    scale_factor: 0.001
+    dimensions: [0.302, 0.185, 0.112]
+    pose:
+      position: [0.90, 0.0, 0.94]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+
+  - id: object1
+    type: mesh
+    frame_id: world
+    mesh_resource: "package://scene_builder_pkg/meshes/LEU_Tool.STL"
+    scale_factor: 0.001
+    dimensions: [0.074, 0.045, 0.173]
+    pose:
+      position: [0.1, -0.84, 0.935]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    goal:
+      position: [0.982, 0.052, 1.13]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    
+
+  - id: object2
+    type: mesh
+    frame_id: world
+    mesh_resource: "package://scene_builder_pkg/meshes/LEU_Tool.STL"
+    scale_factor: 0.001
+    dimensions: [0.074, 0.045, 0.173]
+    pose:
+      position: [0.1, -0.94, 0.935]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    goal:
+      position: [0.982, 0.0, 1.13]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+
+  - id: object3
+    type: mesh
+    frame_id: world
+    mesh_resource: "package://scene_builder_pkg/meshes/LEU_Tool.STL"
+    scale_factor: 0.001
+    dimensions: [0.074, 0.045, 0.173]
+    pose:
+      position: [0.1, -1.04, 0.935]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    goal:
+      position: [0.982, -0.052, 1.13]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+
+  - id: object4
+    type: mesh
+    frame_id: world
+    mesh_resource: "package://scene_builder_pkg/meshes/LEU_Tool.STL"
+    scale_factor: 0.001
+    dimensions: [0.074, 0.045, 0.173]
+    pose:
+      position: [0.0, -0.84, 0.935]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    goal:
+      position: [0.90, 0.052, 1.13]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+
+  - id: object5
+    type: mesh
+    frame_id: world
+    mesh_resource: "package://scene_builder_pkg/meshes/LEU_Tool.STL"
+    scale_factor: 0.001
+    dimensions: [0.074, 0.045, 0.173]
+    pose:
+      position: [0.0, -0.94, 0.935]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    goal:
+      position: [0.90, 0.0, 1.13]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+
+  - id: object6
+    type: mesh
+    frame_id: world
+    mesh_resource: "package://scene_builder_pkg/meshes/LEU_Tool.STL"
+    scale_factor: 0.001
+    dimensions: [0.074, 0.045, 0.173]
+    pose:
+      position: [0.0, -1.04, 0.935]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    goal:
+      position: [0.90, -0.052, 1.13]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+
+  - id: object7
+    type: mesh
+    frame_id: world
+    mesh_resource: "package://scene_builder_pkg/meshes/LEU_Tool.STL"
+    scale_factor: 0.001
+    dimensions: [0.074, 0.045, 0.173]
+    pose:
+      position: [-0.1, -0.84, 0.935]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    goal:
+      position: [0.818, 0.052, 1.13]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+
+  - id: object8
+    type: mesh
+    frame_id: world
+    mesh_resource: "package://scene_builder_pkg/meshes/LEU_Tool.STL"
+    scale_factor: 0.001
+    dimensions: [0.074, 0.045, 0.173]
+    pose:
+      position: [-0.1, -0.94, 0.935]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    goal:
+      position: [0.818, 0.0, 1.13]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+
+  - id: object9
+    type: mesh
+    frame_id: world
+    mesh_resource: "package://scene_builder_pkg/meshes/LEU_Tool.STL"
+    scale_factor: 0.001
+    dimensions: [0.074, 0.045, 0.173]
+    pose:
+      position: [-0.1, -1.04, 0.935]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    goal:
+      position: [0.818, -0.052, 1.14]
+      orientation: [0.0, 0.0, 0.0, 1.0]

@@ -1,0 +1,20 @@
+<launch>
+
+    <!-- Load params -->
+    <rosparam command="load" file="$(find ctmp_single)/config/regions.yaml"/>
+    <!-- <param name="/use_sim_time" value="true"/> -->
+
+    <!-- <param name="octomap_resolution" value="0.05" /> -->
+
+    <param name="query_mode" type="bool" value="false" />
+
+    <param name="region_type" type="string" value="place"/>
+    
+    <!-- Include the pick_place.launch file from the pr2_moveit_config package -->
+    <!-- <include file="$(find ur10_moveit_config)/launch/demo.launch"/> -->
+
+    <!-- Define the ctmp_single_preprocess node from the ctmp_single package -->
+    <node name="ctmp_single_preprocess" pkg="ctmp_single" type="ctmp_single_preprocess" output="screen">
+    </node>
+
+</launch>
